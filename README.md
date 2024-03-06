@@ -2,16 +2,16 @@
 is a comprehensive hotel management system developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It aims to facilitate effective recipe recording and management to ensure consistency and quality in food preparation for businesses in the hospitality industry.
 
 ## Features
-Recipe Recording System:
+### Recipe Recording System:
 Efficiently record and manage recipes to maintain consistency in food preparation.
 
-## Ingredient Tracking:
+### Ingredient Tracking:
 Track ingredients meticulously, recording quantity and timing for accurate recipe execution.
 
-## User Roles and Permissions:
+### User Roles and Permissions:
 Define user roles such as admin, chef, and kitchen staff with varying levels of access for efficient management.
 
-## Reporting and Analytics:
+### Reporting and Analytics:
 Generate reports to analyze recipe popularity, ingredient usage, and cost analysis for informed decision-making.
 
 ## Workflow
