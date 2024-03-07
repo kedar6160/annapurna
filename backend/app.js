@@ -6,17 +6,15 @@ const config = require("./config/config");
 app.use(express.json());
 
 mongoose.connect(config.mongoURI, {
-    useNewUrlParser: true,
     useUnifiedTopology: true,
-    UserCreateIndex: true
 })
 .then(()=> console.log("MongoDB Connected"))
 .catch(err => console.error(err));
 
-const authRoutes = require("./routes/"); 
-const recipeRoutes = require("./routes/");
-const ingredientRoutes = require("./routes/");
-const reportRoutes = require("./routes/");
+const authRoutes = require("./routes/authRoutes"); 
+const recipeRoutes = require("./routes/recipeRoutes");
+const ingredientRoutes = require("./routes/ingredientRoutes");
+const reportRoutes = require("./routes/reportRoutes");
 
 const PORT = process.env.PORT || 5000;
 
