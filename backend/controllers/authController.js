@@ -62,6 +62,4 @@ require("dotenv").config();
       res.status(500).send("Server Error");
     }
   };
-  exports.logout = async (req, res) => {
-    // Implementation for logout endpoint
-  };
+  
