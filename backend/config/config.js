@@ -6,6 +6,6 @@ jwtExpiration = process.env.TIME;
 
 module.exports = {
   mongoURI: uri,
-  jwtSecret: jwtSecret,
-  jwtExpiration: jwtExpiration
+  jwtSecret: "123qwe",
+  jwtExpiration: "1h"
 };
