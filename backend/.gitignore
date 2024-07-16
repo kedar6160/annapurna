@@ -128,3 +128,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+# ATLAS_URI=mongodb+srv://kedar6160:kedar123@cluster0.jsjzhyu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
